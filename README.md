@@ -3,12 +3,17 @@
 
 ## Starta backend
 cd backend
+
 pip install -r requirements.txt
+
 python app.py
 
 ## Starta frontend
+
 cd frontend
+
 npm install
+
 npm run dev
 
 ## Endpoints
