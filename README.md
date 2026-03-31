@@ -1,26 +1,16 @@
-# 🏋️ Träningslogg
-### Rasmus Andersen
+# Träningslogg
+**Rasmus Andersen**
+
+En fullstack CRUD-applikation för att logga träningspass – övningar, set, reps och vikt.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-En fullstack CRUD-applikation för att logga träningspass.
-Logga övningar, set, reps och vikt – och följ din progress över tid.
-
 ---
 
-## ⚙️ Tekniker
-
-| Del | Tekniker |
-|---|---|
-| Backend | FastAPI, SQLAlchemy, Pydantic, SQLite |
-| Frontend | React, Vite, Axios |
-
----
-
-## 🚀 Starta projektet
+## Kom igång
 
 ### Backend
 ```bash
@@ -28,7 +18,8 @@ cd backend
 pip install -r requirements.txt
 python app.py
 ```
-Körs på: http://localhost:8000
+
+API körs på `http://localhost:8000` — dokumentation på `http://localhost:8000/docs`
 
 ### Frontend
 ```bash
@@ -36,11 +27,12 @@ cd frontend
 npm install
 npm run dev
 ```
-Körs på: http://localhost:5173
+
+Appen körs på `http://localhost:5173`
 
 ---
 
-## 📡 Endpoints
+## Endpoints
 
 | Metod | URL | Beskrivning |
 |---|---|---|
@@ -52,7 +44,7 @@ Körs på: http://localhost:5173
 
 ---
 
-## 📁 Projektstruktur
+## Projektstruktur
 ```
 traningslogg/
 ├── backend/
